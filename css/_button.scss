@@ -1,0 +1,21 @@
+button {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    padding: 8px 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: $text-color;
+    border-radius: 4px;
+    &.started {
+        background-color: $black;
+    }
+    strong {
+        color: $white;
+    }
+    &:hover {
+        opacity: .9;
+    }
+}
